@@ -1,0 +1,39 @@
+Authors: Placido Macosso - 100827311   &&     Douglas Raymond - 100904379
+
+The purpose of this project is to create a book management system where the user can add courses and textbooks  and list them as well.
+
+List of header files:
+BMScontrol.h
+Book.h
+BookArray.h
+Course.h
+CourseArray.h
+UImanager.h
+
+
+List of source files:
+BMScontrol.cc
+Book.cc
+BookArray.cc
+Course.cc
+CourseArray.cc
+UImanager.cc
+main.cc
+
+
+List of data files:
+defs.h
+
+
+To run this software, you will need to be in the a1BaseCose directory, then compile by issuing the command "make", after to run the software you will have to issue "./a1".
+
+When the user enters the system, he will have 4 choices to make as following:
+1-add a course to the system database, this option will ivoke a function to add a course to the database. Then by pressing enter, the user will be back in the main screen
+
+2-list courses, this option will ivoke a function to print all existings courses.Then by pressing enter, the user will be back in the main screen
+
+3-add textbook, this option will first ask the user to input a course code, if the code exists in the databse (from option 1), it will then ask the user to input the text book info.Then by pressing enter, the user will be back in the main screen
+
+4-list course textbooks, this option will first ask the user to input a course code, if the code exists in the databse (from option 1), then the input will be successfully verified and the system will print the added text books (from option 3).Then by pressing enter, the user will be back in the main screen
+
+0- exit the system, if the user wants to get out of program, he can just enter 0, and he will exit the system. 
